@@ -1,0 +1,81 @@
+/* Add some basic styles for the wallet page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li:last-child {
+    margin-right: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-section {
+    text-align: center;
+}
+
+.user-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.wallet-settings h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.wallet-settings p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style Ionicons icons */
+ion-icon {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Add some cool icons to the wallet settings */
+.wallet-settings .icon-balance::before {
+    content: "\f55d"; /* Replace with the icon code for balance */
+}
+
+/* Add more icon styles as needed */
+
+/* Add hover effect to links */
+a:hover {
+    text-decoration: underline;
+}

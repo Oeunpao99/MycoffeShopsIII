@@ -1,0 +1,235 @@
+/* coffee-shop.css */
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 100px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.menu-highlights {
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  width: 250px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-image {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.size {
+  color: #777;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.add-to-cart,
+.see-details {
+  background-color: #11bd17;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block; /* Added */
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.add-to-cart:hover,
+.see-details:hover {
+  background-color: #e21f11;
+}
+
+.add-to-cart:focus,
+.see-details:focus {
+  outline: none; /* Remove outline on focus */
+}
+/* Remove underline from buttons */
+.add-to-cart,
+.see-details {
+  text-decoration: none;
+}
+.menu-highlights {
+  margin-top: 20px;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-item {
+  width: 48%; /* Adjust width to fit two items per row */
+  margin-bottom: 20px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.menu-item h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.price {
+  font-weight: bold;
+  color: #b35d5d; /* Adjust price color as needed */
+}
+
+.size {
+  color: #666;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.see-details {
+  background-color: #b35d5d;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.see-details:hover {
+  background-color: #8b3d3d; /* Darker shade of the button color on hover */
+}
+
+/* Hot Coffee Section Styles */
+.menu-highlights h3 strong {
+  color: #b35d5d;
+}
+
+.hot-coffee-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.hot-coffee-item {
+  width: 48%; /* Adjust width to fit two items per row */
+  margin-bottom: 20px;
+}
+
+.hot-coffee-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.hot-coffee-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.hot-coffee-item h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.hot-coffee-price {
+  font-weight: bold;
+  color: #b35d5d; /* Adjust price color as needed */
+}
+
+.hot-coffee-size {
+  color: #666;
+}
+
+.hot-coffee-button-container {
+  margin-top: 10px;
+}
+
+.hot-see-details {
+  background-color: #b35d5d;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hot-see-details:hover {
+  background-color: #8b3d3d; /* Darker shade of the button color on hover */
+}
+

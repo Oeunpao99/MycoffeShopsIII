@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wallet</title>
+    <link rel="stylesheet" href="coffee-shop.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="wallet.html">My Wallet</a></li> <!-- Updated link to My Wallet -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="wallet-section">
+            <h2>Welcome, <?php echo $_SESSION['username']; ?></h2> <!-- Use $_SESSION['username'] to display the username -->
+            <div class="wallet-balance">
+                <p>Total Balance: $<?php echo $_SESSION['balance']; ?></p> <!-- Use $_SESSION['balance'] to display the balance -->
+            </div>
+            <div class="wallet-details">
+                <h3>Wallet Details</h3>
+                <ul>
+                    <li><strong>Language:</strong> <?php echo $language; ?></li> <!-- Replace $language with the actual language data -->
+                    <li><strong>Address:</strong> <?php echo $address; ?></li> <!-- Replace $address with the actual address data -->
+                    <li><strong>Coupon:</strong> <?php echo $coupon; ?></li> <!-- Replace $coupon with the actual coupon data -->
+                </ul>
+            </div>
+            <div class="wallet-actions">
+                <h3>Wallet Actions</h3>
+                <button class="top-up-button">Top-Up</button> <!-- Add a Top-Up button -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 hi.</p>
+    </footer>
+    <script src="wallet.js"></script>
+</body>
+</html>

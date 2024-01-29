@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 400px;
+  padding: 100px 0px;
+  background-image: url("https://i.pinimg.com/originals/31/ca/2b/31ca2bcf105003bf97be1aaf9e564df6.jpg"); /* Add your background image URL here */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto; /* Center the form */
+  background-color: rgba(
+    189,
+    5,
+    5,
+    0.8
+  ); /* Semi-transparent white background */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(10, 237, 29, 0.1); /* Soft shadow effect */
+}
+
+h2 {
+  text-align: center;
+  color: #0a50ca;
+}
+h2.hover {
+  color: #ca1d0a;
+}
+
+form {
+  margin-top: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #0e3bcd;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #3ddc0c; /* Green background */
+  color: #ed0505;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0c37e5; /* Darker green on hover */
+}
+
+.login-link a {
+  color: #d3e10b; /* Blue color for the link */
+  text-decoration: none;
+}

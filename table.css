@@ -1,0 +1,204 @@
+/* style.css */
+/* table.css */
+/* table.css */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* table.css */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  width: 23%; /* Set width to fit four images per row with some margin */
+  margin: 1%; /* Adjust margin for spacing between images */
+  text-align: center; /* Center the images within their containers */
+  vertical-align: top; /* Align images to the top of their containers */
+  box-sizing: border-box; /* Include padding and border in width calculations */
+}
+
+.menu-image {
+  width: 100%; /* Ensure images fill their containers */
+  height: auto;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between images */
+}
+
+.menu-image {
+  width: 200px; /* Adjust width of images as needed */
+  height: auto;
+  border-radius: 5px; /* Add border-radius for rounded corners */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #333; /* Dark gray color for headings */
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+li {
+    background-color: #fff; /* White background for list items */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Dark gray color for links */
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #f5f5f5; /* Light gray background on hover */
+}
+
+.coffee-img {
+    width: 100%; /* Image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #010f0c;
+}
+
+table th {
+  background-color: #0950b9;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #24d1bd;
+}
+/* Reset default margin and padding */
+body, h1, form, label, select, input {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styles to the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  /* Style for the main heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form elements */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for select inputs */
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for submit button */
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: rgb(24, 47, 118);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Change submit button color on hover */
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for total price span */
+  #total-price {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  /* style.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+  

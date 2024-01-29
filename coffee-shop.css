@@ -1,0 +1,402 @@
+/* coffee-shop.css */
+/* Basic Reset */
+/* styles.css */
+
+/* Style for the "See Details" button */
+.see-details {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it display as an inline block element */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style */
+  border-radius: 5px; /* Rounded corners */
+  transition-duration: 0.4s; /* Transition duration */
+}
+/* Hover effect for the "See Details" button */
+.see-details:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background: #308bc5;
+  color: #ffffff;
+  padding: 20px 0;
+  border-bottom: #e8491d 3px solid;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #e8491d;
+}
+
+.welcome-section,
+.menu-highlights,
+.news-offers {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.welcome-section h1,
+.menu-highlights h2,
+.news-offers h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.welcome-section p {
+  font-size: 1.1em;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #35424a;
+  color: #fff;
+}
+
+/* Add your own styles for the menu highlights and offers sections */
+.menu-highlights {
+  /* Example: You might want to add a grid or list of items here */
+}
+
+.news-offers {
+  /* Example: You might want to add a list of news items or special offers here */
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 770px) {
+  nav ul {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+  }
+}
+/* coffee-shop.css */
+
+/* (Include previous styles from above) */
+
+/* Menu Styles */
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.menu-item {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #4e0909;
+}
+
+.menu-item:hover {
+  box-shadow: 0 5px 15px rgba(12, 218, 204, 0.2);
+}
+
+.menu-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Responsive adjustments for the menu */
+@media (max-width: 768px) {
+  .menu-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-item {
+    width: 200%;
+  }
+}
+/* Style for the "Add to Cart" button */
+.add-to-cart {
+  background-color: #e38110; /* Change to your desired background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding to your liking */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the "Add to Cart" button */
+.add-to-cart:hover {
+  background-color: #310ecd; /* Change to a darker shade for hover effect */
+}
+/* Style for the "Order" button */
+.order {
+  background-color: #2196f3; /* Change to your desired background color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px; /* Adjust padding to your liking */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for the "Order" button */
+.order:hover {
+  background-color: #1976d2; /* Change to a darker shade for hover effect */
+}
+/* Style for the coffee item */
+.menu-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu-item h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.menu-item .price {
+  font-size: 18px;
+  color: #ce2727;
+}
+
+/* Style for the options (condition, size, sugar level) */
+.menu-item .options {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item .options label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.menu-item .options select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Style for the "Add to Cart" button */
+.menu-item .button-container {
+  margin-top: 10px;
+}
+
+.menu-item .add-to-cart {
+  background-color: #ce2727;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item .add-to-cart:hover {
+  background-color: #93ff46;
+}
+/* Add some basic styles for the wallet page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header ul li:last-child {
+  margin-right: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-section {
+  text-align: center;
+}
+
+.user-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.wallet-settings h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.wallet-settings p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Style Ionicons icons */
+ion-icon {
+  font-size: 24px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* Add some cool icons to the wallet settings */
+.wallet-settings .icon-balance::before {
+  content: "\f55d"; /* Replace with the icon code for balance */
+}
+
+/* Add more icon styles as needed */
+
+/* Add hover effect to links */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Wallet Details Styles */
+.wallet-details {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.wallet-details h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #35424a;
+}
+
+.wallet-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wallet-details ul li {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #35424a;
+}
+
+/* Wallet Actions Styles */
+.wallet-actions {
+  margin-top: 30px;
+}
+
+.top-up-button {
+  background-color: #35424a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top-up-button:hover {
+  background-color: #29353a;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #35424a;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+

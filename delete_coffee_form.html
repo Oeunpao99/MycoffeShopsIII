@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete Coffee</title>
+    <link rel="stylesheet" href="add_coffe.css">
+  </head>
+  <body>
+    <h2>Delete Coffee</h2>
+    <form action="delete_coffee.php" method="post">
+      <!-- Coffee ID will remain as a numeric input field -->
+      <label for="coffee_id">Coffee ID:</label>
+      <input type="number" id="coffee_id" name="coffee_id" required /><br />
+
+      <!-- Coffee Type dropdown -->
+      <label for="coffee_type">Coffee Type:</label>
+      <select id="coffee_type" name="coffee_type" required>
+        <option value="Espresso">Espresso</option>
+        <option value="ICE Cappuccino">ICE Cappuccino</option>
+        <option value="Latte">Latte</option>
+        <option value="Cappuccino">Cappuccino</option></select
+      ><br />
+
+      <!-- Coffee Size dropdown -->
+      <label for="coffee_size">Coffee Size:</label>
+      <select id="coffee_size" name="coffee_size" required>
+        <option value="S">Small</option>
+        <option value="M">Medium</option>
+        <option value="L">Large</option></select
+      ><br />
+
+      <!-- Sugar Level dropdown -->
+      <label for="sugar_level">Sugar Level:</label>
+      <select id="sugar_level" name="sugar_level" required>
+        <option value="0%">0%</option>
+        <option value="25%">25%</option>
+        <option value="50%">50%</option>
+        <option value="75%">75%</option>
+        <option value="100%">100%</option></select
+      ><br />
+
+      <!-- Quantity input field -->
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" required /><br />
+
+      <!-- Submit button -->
+      <input type="submit" value="Delete Coffee" />
+      <button><a href="menu.html"> Back to Main Menu</a></button
+      ><a href="menu.html"></a>
+    </form>
+  </body>
+</html>
